@@ -1,13 +1,58 @@
 .body{
     background-color: #000000;
 }
+#map {
+
+    height: 100%;
+    width: 100%;
+    }
+    
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #floating-panel {
+    margin-top: 100px;
+    margin-left: -500px;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+    }
+    
+    #floating-panel {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -180px;
+    width: 350px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    }
+    
+    #latlng {
+    width: 225px;
+    }
 .cont1{
     border:2px solid #f3d096; 
     /* height: auto; */
     align-items: center;
     margin-top:30px;
-    max-width: 60% !important;
-    max-height: 30%!important
+   
+    
+    border-width: 100% !important;
   
 }
 .cont2{
